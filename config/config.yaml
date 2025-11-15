@@ -1,0 +1,21 @@
+data_path: "data/"
+model_save_path: "models/"
+results_path: "results/"
+log_path: "logs/"
+text_processing:
+  normalization: true
+  lemmatization: true
+  stop_word_removal: true
+model_parameters:
+  churn_model:
+    n_estimators: 100
+    max_depth: 5
+    learning_rate: 0.01
+  text_model:
+    embedding_dim: 100
+    lstm_units: 64
+evaluation_metrics:
+  - accuracy
+  - precision
+  - recall
+  - f1_score
