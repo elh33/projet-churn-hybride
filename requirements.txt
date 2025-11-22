@@ -3,3 +3,13 @@ scikit-learn
 xgboost
 streamlit
 nltk
+numpy
+matplotlib
+seaborn
+lightgbm
+joblib
+torch
+textblob
+vaderSentiment
+transformers
+tqdm
